@@ -1,0 +1,28 @@
+Income
+    plannedincome
+    actualincome
+
+
+Buckets
+    id
+    name
+    budget
+    color
+    FK: Transactions
+
+
+Transactions
+    id
+    date
+    description
+    amount
+    simpledescription
+    FK: Buckets
+
+Savings
+    id
+    name
+    cashamount
+    cardamount
+    total
+    
